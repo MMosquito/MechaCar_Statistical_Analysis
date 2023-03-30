@@ -11,7 +11,6 @@ mechacar_mpg <- read.csv("MechaCar_mpg.csv", check.names=F, stringsAsFactors = F
 
 #5 Perform linear regression, passing all six variables and add the dataframe as the data parameter
 #lm(mpg + disp + drat + wt + hp,mechacar_mpg)
-
 lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_clearance + AWD, data=mechacar_mpg)
 
 #6 Use summary function, determine the p-value and the r-squared value for linear regression model.
@@ -28,8 +27,12 @@ total_summary <- coil %>% summarize(Mean_PSI=mean(PSI), Median_PSI=median(PSI), 
 #4 Create lot_summary dataframe    
 lot_summary <- coil  %>% group_by(Manufacturing_Lot) %>% summarize(Mean_PSI=mean(PSI), Median_PSI=median(PSI), Var_PSI=var(PSI), Std_Dev_PSI=sd(PSI))
 
-#Part 3: T-Tests on Suspension Coils
+#Part 3: T-Tests on Suspension Coils using ?t.test()
+
 #1 TTest to determine if PSI is statistically different
 t.test(coil$PSI,mu=1500)
 
-#t.test(log10(sample_table$Miles_Driven),mu=mean(log10(population_table$Miles_Driven)))
+
+
+
+
