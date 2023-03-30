@@ -3,6 +3,10 @@
 ## Linear Regression to Predict MPG
 
 ### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+Non-random appears when something new, sometimes unexpected, starts to influence the process.  In this case the coefficients that provided non-random amount of variance to the mpg values is the vehicle length and the ground clearance.
+
+<img width="366" alt="non_random coefficients" src="https://user-images.githubusercontent.com/14171474/228706919-3b949a3b-fe1b-4666-8b23-1821971099d1.png">
+
 
 ### Is the slope of the linear model considered to be zero? Why or why not?
 
@@ -13,4 +17,15 @@
 
 ### The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
+## Study Design: MechaCar vs Competition
+
+### Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+
+#### What metric or metrics are you going to test?
+
+#### What is the null hypothesis or alternative hypothesis?
+
+#### What statistical test would you use to test the hypothesis? And why?
+
+#### What data is needed to run the statistical test?
 
